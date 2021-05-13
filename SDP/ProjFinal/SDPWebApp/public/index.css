@@ -1,0 +1,38 @@
+body {
+    background-color: #333333;
+    color: #EEEEEE;
+}
+
+h1{
+    padding-left: 30%;
+}
+
+.inline{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+section {
+    margin: 2%;
+}
+
+section > h3 {
+    padding-left: 15px;
+}
+
+th, td {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+th {
+    border-left: 2px solid #FF5522;
+    border-right: 2px solid #FF5522;
+    border-bottom: 2px solid #FF5522;
+}
+
+td {
+    border: 2px solid #FF5522;
+}
