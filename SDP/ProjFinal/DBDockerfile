@@ -1,0 +1,5 @@
+FROM postgres:13.1-alpine
+ENV POSTGRES_PASSWORD=postgres
+WORKDIR /SQL_SDP
+COPY /DB_SQL /SQL_SDP
+COPY /DB_SQL /docker-entrypoint-initdb.d/
