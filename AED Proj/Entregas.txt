@@ -1,0 +1,35 @@
+<> Entregas de Camião:
+Identificador: AJFU3N3NR3B
+Ponto de recolha: Lisboa
+Ponto de entrega: Berlin
+Descrição da mercadoria: Alimentos
+Volume da mercadoria: 180000
+-------
+
+<> Entregas de Automóvel:
+Identificador: DESFSE84877
+Ponto de recolha: Madrid
+Ponto de entrega: Lisboa
+Descrição da mercadoria: Prata
+Volume da mercadoria: 110000
+-------
+Identificador: FAEA23F3F3F
+Ponto de recolha: Porto
+Ponto de entrega: Viseu
+Descrição da mercadoria: Ouro
+Volume da mercadoria: 100000
+-------
+
+<> Entregas de Mota:
+Identificador: AMDIWN33JF93N
+Ponto de recolha: Lisboa
+Ponto de entrega: Viseu
+Descrição da mercadoria: Roupas
+Volume da mercadoria: 8000
+-------
+Identificador: AX47WF4AW
+Ponto de recolha: Lisboa
+Ponto de entrega: Porto
+Descrição da mercadoria: Conjuntos pizzas congeladas
+Volume da mercadoria: 4000
+-------
