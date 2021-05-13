@@ -11,7 +11,7 @@ In this file I describe each project to serve as an index for the repository.
 
   Arquitetura de Computadores (AC) - Assembly MIPS
 
- Nesta disciplina o professor apresentou um código (em assembly mips) que criava uma grelha em memória com um aspecto visual de um quadrado com 0s e 1s gerada aleatoriamente.
+Nesta disciplina o professor apresentou um código (em assembly mips) que criava uma grelha em memória com um aspecto visual de um quadrado com 0s e 1s gerada aleatoriamente.
 Nessa grelha era inserida uma forma geométrica específica (padrão de 1s predeterminado para cada grupo) que cada grupo tinha de detetar.
 Havia um objectivo opcional que era mostrar a mesma coisa mas na ferramenta BitMap do simulador Mars MIPS (que foi o ambiente de desenvolvimento) que também foi conseguido.
 É necessário alterar as definições de tamanho dos pixeis, Unit Width = 16 e Unit Height = 16.
@@ -35,4 +35,7 @@ Aplicação do método de Monte Carlo para determinar o valor de PI e fazendo um
 Gera pontos dentro de um quadrado de lado 1 e depois verifica se estes estão incluidos num circulo de raio 1 inserido no quadrado.
 
 
-
+  Aplicação de Bases de Dados (ABD) - SQL
+  
+Em seguimento à unidade curricular de MBD expande-se a utilização do sistema Oracle APEX. Desta vez aplicada a Hollywood.
+Utiliza triggers e funções em PLSQL.
