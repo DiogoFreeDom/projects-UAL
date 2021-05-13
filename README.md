@@ -45,3 +45,17 @@ Utiliza triggers e funções em PLSQL.
 
 Implementação dos algoritmos Naive Bayes, AC-3 e Percetrão em Python através do pseudo-código.
 AC-3 aplicado a um jogo de sudoku. Naive Bayes e percetrão aplicados de modo a criar sistemas de deteção de e-mails spam.
+
+
+  Sistemas Distribuidos e Paralelos (SDP)
+  Lab2 - Java
+  
+No segundo laboratório desta UC o objectivo era criar uma estrutura de dados distribuída com um nó principal, que controla a rede e participa nela, e nós participantes que participam. Cada nó tem uma tabela de dispersão (map/HashMap).
+O cliente do nó principal pede que algo seja guardado (ao nó principal) e este, utilizando uma função de hash, determina em que participante aquela informação é guardada.
+
+  ProjFinal - Java, PostgreSQL, Node.js, HTML, CSS
+  
+Para o projecto final o objectivo era criar uma API REST, que servia uma base de dados a uma página web, sendo que todos estes componentes estão em máquinas diferentes.
+A base de dados foi criada com PostgreSQL.
+A API utiliza Wildfly para os serviços http e interage com a BD através de JDBC e as respetivas drivers para PostgreSQL.
+A página web interage com a api através de node.js. A página mostra o conteúdo de algumas das tabelas da base de dados.
