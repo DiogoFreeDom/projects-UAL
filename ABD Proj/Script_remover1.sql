@@ -1,0 +1,15 @@
+DROP TABLE Filme_Genero;
+DROP TABLE Distribuido_Por;
+DROP TABLE Produzido_Por;
+DROP TABLE Cinema;
+DROP TABLE ATOR_NOME_SS;
+DROP TABLE Ator_Aptidao;
+DROP TABLE Participa_Em;
+DROP TABLE Ator_É_Realizador;
+DROP TABLE Ator_Idade;
+DROP TABLE Ator;
+DROP TABLE Filme_Log;
+DROP TABLE Filme;
+DROP TABLE Realizador;
+DROP TABLE Estudio_CodPostal;
+DROP TABLE Estudio;
