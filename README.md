@@ -39,3 +39,9 @@ Gera pontos dentro de um quadrado de lado 1 e depois verifica se estes estão in
   
 Em seguimento à unidade curricular de MBD expande-se a utilização do sistema Oracle APEX. Desta vez aplicada a Hollywood.
 Utiliza triggers e funções em PLSQL.
+
+
+   Inteligência Artificial (IA) - Python
+
+Implementação dos algoritmos Naive Bayes, AC-3 e Percetrão em Python através do pseudo-código.
+AC-3 aplicado a um jogo de sudoku. Naive Bayes e percetrão aplicados de modo a criar sistemas de deteção de e-mails spam.
