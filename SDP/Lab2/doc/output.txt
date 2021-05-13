@@ -1,0 +1,101 @@
+RedeOverlayClient é iniciado com um argumento que corresponde ao ip do nó principal
+RedeOverlaySecNode é iniciado com um argumento que corresponde ao ip do nó principal e um segundo argumento que é o port em que oferece o seu serviço
+O comando "E" no cliente encerra toda a rede (ou seja nó principal e todos os nós participantes)
+output.txt
+
+RedeOverlayClient
+
+R UAL UAL
+Ligação Estabelecida.
+Item registado com sucesso.
+R SDP Sistemas Distribuídos e Paralelos
+Ligação Estabelecida.
+Item registado com sucesso.
+R POO Programação Orientada a Objectos
+Ligação Estabelecida.
+Item registado com sucesso.
+R AP Algoritmia e Programação
+Ligação Estabelecida.
+Item registado com sucesso.
+C UAL
+Ligação Estabelecida.
+UAL
+C
+Ligação Estabelecida.
+Ocorreu um erro
+R UAL UAL
+Ligação Estabelecida.
+Chave existente.
+C AED
+Ligação Estabelecida.
+Chave Inexistente.
+R AED Algoritmos e Estruturas de Dados
+Ligação Estabelecida.
+Item registado com sucesso.
+C AED
+Ligação Estabelecida.
+Algoritmos e Estruturas de Dados
+D UAL
+Ligação Estabelecida.
+Item removido com sucesso.
+C UAL
+Ligação Estabelecida.
+Chave Inexistente.
+R Universidade Autónoma de Lisboa
+Ligação Estabelecida.
+Item registado com sucesso.
+C UAL
+Ligação Estabelecida.
+Chave Inexistente.
+Q
+Cliente encerrado
+
+Process finished with exit code 0
+
+------//------
+
+RedeOverlaySecNode no1
+
+Ligação estabelecida
+*Servidor iniciou em 0.0.0.0:4443*
+*conexão* host.docker.internal@192.168.1.84:4443
+*conexão* host.docker.internal@192.168.1.84:4443
+*conexão* host.docker.internal@192.168.1.84:4443
+*conexão* host.docker.internal@192.168.1.84:4443
+*conexão* host.docker.internal@192.168.1.84:4443
+Universidade Autónoma de Lisboa
+SDP Sistemas Distribuídos e Paralelos
+
+-----//-----
+
+RedeOverlaySecNode no2
+
+Ligação estabelecida
+*Servidor iniciou em 0.0.0.0:4444*
+*conexão* host.docker.internal@192.168.1.84:4444
+*conexão* host.docker.internal@192.168.1.84:4444
+*conexão* host.docker.internal@192.168.1.84:4444
+*conexão* host.docker.internal@192.168.1.84:4444
+*conexão* host.docker.internal@192.168.1.84:4444
+*conexão* host.docker.internal@192.168.1.84:4444
+*conexão* host.docker.internal@192.168.1.84:4444
+*conexão* host.docker.internal@192.168.1.84:4444
+*conexão* host.docker.internal@192.168.1.84:4444
+*conexão* host.docker.internal@192.168.1.84:4444
+*conexão* host.docker.internal@192.168.1.84:4444
+*conexão* host.docker.internal@192.168.1.84:4444
+*conexão* host.docker.internal@192.168.1.84:4444
+AED Algoritmos e Estruturas de Dados
+POO Programação Orientada a Objectos
+AP Algoritmia e Programação
+
+-----//-----
+
+RedeOverlaySecNode no3
+
+Ligação estabelecida
+*Servidor iniciou em 0.0.0.0:4445*
+*conexão* host.docker.internal@192.168.1.84:4445
+Sem itens
+
+-----//-----
