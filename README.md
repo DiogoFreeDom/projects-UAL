@@ -48,6 +48,7 @@ AC-3 aplicado a um jogo de sudoku. Naive Bayes e percetrão aplicados de modo a 
 
 
   Sistemas Distribuidos e Paralelos (SDP)
+  
   Lab2 - Java
   
 No segundo laboratório desta UC o objectivo era criar uma estrutura de dados distribuída com um nó principal, que controla a rede e participa nela, e nós participantes que participam. Cada nó tem uma tabela de dispersão (map/HashMap).
