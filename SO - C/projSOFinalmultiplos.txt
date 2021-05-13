@@ -1,0 +1,59 @@
+﻿//gcc 5.4.0
+
+#include  <stdio.h>
+#include  <time.h>
+#include  <stdlib.h>
+#include  <pthread.h>
+
+
+double quantidade=1000000;  //variável que indica o número de pontos a que serão criados pelo programa
+int threads=8;   //variável que indica o número de threads que o programa irá utilizar para o cálculo de pi
+
+void *randomizer()   //função utilizada por cada thread para gerar os pontos necessários e verificar a posição dos pontos
+{
+    int Acirculo=0; double x=0; double y=0;
+    int *v=(int*)malloc(sizeof(int));
+    for (int i=0; i<=quantidade/threads; ++i) //gera pontos dependendo da quantidade de pontos a gerar e de threads total
+    {
+	x=(double)rand()*(1-(-1))/(double)RAND_MAX+(-1); 	//gera a coordenada x do ponto
+	y=(double)rand()*(1-(-1))/(double)RAND_MAX+(-1); 	//gera a coordenada y do ponto
+        if ((x*x+y*y)<=1) 					//verifica se os pontos estão dentro do círculo 
+        {
+            Acirculo++;  //incrementa a variável que guarda o número de pontos no círculo
+        }
+    }
+    *v=Acirculo;
+    return (void *) v;
+}
+	    
+    
+int main(void)
+{
+    for(int i=0; i<20; i++)
+    {
+    int Area=0;
+    double calc;
+    clock_t time_start, time_end; //declara as variáveis utilizadas para contagem de tempo
+    void *Acirculo[threads]; 	 //gera um array com comprimento igual ao número de threads
+    srand(time(NULL));
+    pthread_t ids[threads]; 	//cria thread ids para cada thread
+    time_start = clock();	//guarda o tempo antes de criar os threads
+    for(int i=0; i<threads; ++i)
+    {
+        pthread_create(&ids[i], NULL, &randomizer, NULL); // cria threads a realizar a função randomizer
+    }
+    for(int i=0; i<threads; ++i)
+    {
+        pthread_join(ids[i], &Acirculo[i]);  //aguarda que os threads finalizem a sua função
+    }
+    for(int i=0; i<threads; ++i)
+    {
+        Area= *((int*)Acirculo[i]) + Area; //conta todos os pontos dentro do círculo
+    }
+    calc=(Area/quantidade)*4;   		//calcula o valor de pi
+    printf("\n%f", calc); 		//imprime o valor de pi no ecrã
+    time_end=clock();			//guarda o tempo no fim do programa
+    printf("\n%f",(double)(time_end - time_start)/CLOCKS_PER_SEC); // calcula o tempo que o programa demorou a calcular o valor de pi e afixa-o no ecrã
+    }
+    return 0;
+}
