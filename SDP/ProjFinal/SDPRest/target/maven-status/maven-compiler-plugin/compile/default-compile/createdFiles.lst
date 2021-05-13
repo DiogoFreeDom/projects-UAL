@@ -1,0 +1,5 @@
+pt\ual\sdp\app\models\DataEntrega.class
+pt\ual\sdp\app\views\DepositosAPI.class
+pt\ual\sdp\app\models\PostgreInteraction.class
+pt\ual\sdp\app\views\EntregasAPI.class
+pt\ual\sdp\app\views\ItemsAPI.class
